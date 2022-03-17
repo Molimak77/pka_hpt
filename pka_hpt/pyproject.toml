@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "pka_hpt"
+version = "0.1.0"
+description = "Python package test build with poetry and hosted in github"
+authors = ["molierenguile-makao <moliere.nguile@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+homepage = "https://github.com/Molimak77/pka_hpt"
+repository = "https://github.com/Molimak77/pka_hpt"
+
+classifiers[
+		"Licence :: OSI Approved :: MIT Licence"
+	]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
